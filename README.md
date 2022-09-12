@@ -24,6 +24,6 @@ Then visit http://localhost:3000
 4. Uses Tailwind CSS
 5. Production build's assets are minified
 6. Production build's CSS files are purged leading to just 3kb when gzipped
-7. 100 score on SEO, high scores on Performance and Accessibility
+7. Lighthouse: 100 score on SEO, high scores on Performance and Accessibility
 
 ![Lighthouse](lighthouse.png)
