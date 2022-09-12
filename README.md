@@ -11,7 +11,7 @@ npm run dev
 
 Then visit http://localhost:3000
 
-### How to run the "built" production on a server
+### How to run the "built" version on a server
 
 1. Paste contents of the dist folder on a web server
 2. Visit index.html
