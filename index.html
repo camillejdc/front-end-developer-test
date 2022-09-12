@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <meta name="description" content="Volutpat wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+    consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu
+    feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent" />
+
+    <script src="https://kit.fontawesome.com/2d72b03bff.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav class="bg-[#2d2b2f]">
+      <div class="container max-w-[1218px] py-3 flex flex-wrap items-center justify-between px-6 mx-auto">
+        <a href="#" class="logo text-[47px] text-white">Mairala</a>
+
+        <span id="open-mobile-menu">
+          <i class="text-white h-[24px] fa-solid fa-bars pointer-events-none"></i>
+        </span>
+        <span id="close-mobile-menu">
+          <i class="text-white h-[24px] fa-solid fa-xmark pointer-events-none"></i>
+        </span>
+
+        <div id="mobile-menu" class="flex flex-wrap hamburger gap-11 flex-column md:flex-row">
+          <a href="#" class="text-white text-[12px] tracking-[1px] relative uppercase">
+            Home
+            <span class="absolute bg-[#7b6c63] h-[5px] w-full top-[calc(100%+9px)] left-0"></span>
+          </a>
+          <a href="#" class="text-white md:text-[12px] tracking-[1px] relative uppercase">About</a>
+          <a href="#" class="text-white md:text-[12px] tracking-[1px] relative uppercase">Portfolios</a>
+          <a href="#" class="text-white md:text-[12px] tracking-[1px] relative uppercase">Team</a>
+          <a href="#" class="text-white md:text-[12px] tracking-[1px] relative uppercase">Blog</a>
+          <a href="#" class="text-white md:text-[12px] tracking-[1px] relative uppercase">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="body">
+      <section
+        class="relative"
+      >
+        <div class="slider">
+          <picture>
+            <source media="(min-width: 1050px)" srcset="src/assets/bg.png">
+            <source media="(min-width: 650px)" srcset="src/assets/bg-tablet.png">
+            <source srcset="src/assets/bg-mobile.png">
+            <img src="src/assets/bg.png" alt="BG" class="w-full">
+          </picture>
+          <picture>
+            <source media="(min-width: 1050px)" srcset="https://picsum.photos/seed/picsum/1920/675">
+            <source media="(min-width: 650px)" srcset="https://picsum.photos/seed/picsum/800/475">
+            <source srcset="https://picsum.photos/seed/picsum/675">
+            <img src="https://picsum.photos/seed/picsum/1920/675" alt="BG" class="w-full">
+          </picture>
+        </div>
+
+        <div class="absolute top-0 left-0 flex items-center w-full h-full">
+          <div class="container max-w-[1218px] px-6 mx-auto">
+            <div class="max-w-[850px] -mt-[15px]">
+              <h1 class="mb-[30px] md:mb-[55px] text-3xl md:text-5xl leading-normal md:leading-[60px] lg:text-[66px] lg:leading-[75px] text-white uppercase tracking-wide">
+                <span class="md:leading-[50px] leading-normal block text-[24px] text-white tracking-widest">Grab Your Copy Of</span>
+                The <span class="font-semibold text-[#7b6c63]">Premium</span> Quality PSD Template For <span class="font-semibold text-[#7b6c63]">free</span>
+              </h1>
+              <a
+                href="#"
+                class="inline-flex gap-2 rounded uppercase tracking-widest text-white w-[264px] items-center justify-center h-[60px] bg-[#ffffff1a]"
+              >
+                Download
+                <i class="fa-solid fa-download"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-[90px]">
+        <div class="container max-w-[1218px] px-6 mx-auto">
+          <h2 class="tracking-widest text-[#7b6c63] font-semibold mb-[37px] uppercase text-[24px] leading-[30px] text-center">Services We provide</h2>
+          <p class="tracking-widest text-center text-[16px] leading-[30px]">Volutpat wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+            consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu
+            feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent  </p>
+
+          <div class="my-[85px] flex flex-wrap justify-between gap-[40px] md:gap-0">
+            <div class="md:w-[calc(33%-20px)] w-full">
+              <i class="mx-auto flex fa-solid fa-users h-[30px] text-[#7b6c63] mb-[30px]"></i>
+              <h3 class="mb-[29px] uppercase tracking-widest text-center text-[18px] leading-[30px]">ConsulTancy</h3>
+              <p class="text-[#949494] tracking-widest text-center text-[16px] leading-[30px]">Claritas est etiam processus dynaicus qui sequitur mutationem consuetudium lectorum. Mirum est notare quam </p>
+            </div>
+            <div class="md:w-[calc(33%-20px)] w-full">
+              <i class="mx-auto flex fa-solid fa-bullhorn h-[30px] text-[#7b6c63] mb-[30px]"></i>
+              <h3 class="mb-[29px] uppercase tracking-widest text-center text-[18px] leading-[30px]">Marketing</h3>
+              <p class="text-[#949494] tracking-widest text-center text-[16px] leading-[30px]">Claritas est etiam processus dynaicus qui sequitur mutationem consuetudium lectorum. Mirum est notare quam </p>
+            </div>
+            <div class="md:w-[calc(33%-20px)] w-full">
+              <i class="mx-auto flex fa-solid fa-flask h-[30px] text-[#7b6c63] mb-[30px]"></i>
+              <h3 class="mb-[29px] uppercase tracking-widest text-center text-[18px] leading-[30px]">Research</h3>
+              <p class="text-[#949494] tracking-widest text-center text-[16px] leading-[30px]">Claritas est etiam processus dynaicus qui sequitur mutationem consuetudium lectorum. Mirum est notare quam </p>
+            </div>
+          </div>
+
+          <h2 class="tracking-widest text-[#7b6c63] font-semibold mb-[50px] uppercase text-3xl leading-normal md:text-[40px] md:leading-[48px] text-center">Our Blog</h2>
+          <hr class="bg-[#7b6c63] w-[77px] h-[7px] mx-auto mt-0 mb-[46px]">
+          <p class="text-[#212121] tracking-widest text-center text-[16px] leading-[30px]">Nam liber tempor cum soluta nobis eleifend option <br>
+            congue nihil imperdiet doming id quod mazim
+          </p>
+
+          <div class="my-[85px]">
+            <div class="items-start flex flex-wrap gap-[40px] lg:gap-[80px] mb-[50px]">
+              <img
+                src="/src/assets/img.png"
+                alt="Image"
+                class="w-full md:w-2/5 lg:w-auto"
+              >
+              <div class="md:flex-1">
+                <span class="block mb-[8px] text-[#7b6c63] text-[16px] leading-[30px] tracking-widest">10 April 2014</span>
+                <h4 class="mb-[24px] text-[#212121] text-[24px] leading-[30px]">Typi non habent claritatem insitam</h4>
+                <p class="text-[#949494] text-[16px] leading-[30px] tracking-widest">Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+                  esse molestie consequat, vel illum dolore eu feugiat nulla
+                  facilisis at vero eros et accumsan et iusto odio dignissim qui [...]</p>
+              </div>
+            </div>
+            <div class="items-start flex flex-wrap gap-[40px] lg:gap-[80px] flex-row-reverse mb-[50px]">
+              <img
+                src="/src/assets/img.png"
+                alt="Image"
+                class="w-full md:w-2/5 lg:w-auto"
+              >
+              <div class="md:flex-1 md:text-right">
+                <span class="block mb-[8px] text-[#7b6c63] text-[16px] leading-[30px] tracking-widest">10 April 2014</span>
+                <h4 class="mb-[24px] text-[#212121] text-[24px] leading-[30px]">Typi non habent claritatem insitam</h4>
+                <p class="text-[#949494] text-[16px] leading-[30px] tracking-widest">Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+                  esse molestie consequat, vel illum dolore eu feugiat nulla
+                  facilisis at vero eros et accumsan et iusto odio dignissim qui [...]</p>
+              </div>
+            </div>
+            <div class="items-start flex flex-wrap gap-[40px] lg:gap-[80px]">
+              <img
+                src="/src/assets/img.png"
+                alt="Image"
+                class="w-full md:w-2/5 lg:w-auto"
+              >
+              <div class="md:flex-1">
+                <span class="block mb-[8px] text-[#7b6c63] text-[16px] leading-[30px] tracking-widest">10 April 2014</span>
+                <h4 class="mb-[24px] text-[#212121] text-[24px] leading-[30px]">Typi non habent claritatem insitam</h4>
+                <p class="text-[#949494] text-[16px] leading-[30px] tracking-widest">Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+                  esse molestie consequat, vel illum dolore eu feugiat nulla
+                  facilisis at vero eros et accumsan et iusto odio dignissim qui [...]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-[90px] bg-[#f5f5f5]">
+        <div class="container max-w-[700px] px-6 mx-auto">
+          <h2 class="tracking-widest text-[#7b6c63] font-semibold mb-[50px] uppercase text-[40px] leading-[48px] text-center">Contact</h2>
+
+          <form action="#" method="POST" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-6">
+
+            <input type="text" placeholder="Name*" class="block w-full px-4 py-3 border-t-4 bg-transparent border-[#2d2b2f] focus:border-[#7b6c63] focus:outline-none">
+            <input type="text" placeholder="Email*" class="block w-full px-4 py-3 border-t-4 bg-transparent border-[#2d2b2f] focus:border-[#7b6c63] focus:outline-none">
+
+            <div class="sm:col-span-2 border-b border-[#2d2b2f]">
+                <textarea placeholder="Message..." rows="4" class="block w-full px-4 py-3 border-t-4 bg-transparent border-[#2d2b2f] focus:border-[#7b6c63] focus:outline-none"></textarea>
+            </div>
+            <div class="text-center sm:col-span-2">
+              <button type="submit" class="inline-flex items-center justify-center px-14 py-2 text-[18px] font-medium bg-transparent border border-[#2d2b2f] hover:text-white hover:bg-[#2d2b2f]">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <footer class="bg-[#222222] py-[60px]">
+      <div class="container max-w-[1218px] px-6 mx-auto">
+        <div class="max-w-[271px]">
+          <a href="#" class="logo text-[47px] text-[#7b6c63] mb-[31px]">Mairala</a>
+          <p class="text-[#929292] text-[14px] leading-[24px]">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore. <br> <br>
+
+          eugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta </p>
+        </div>
+      </div>
+    </footer>
+    <div class="bg-[#1c1c1c] py-5">
+      <div class="container max-w-[1218px] px-6 mx-auto">
+        <p class="text-[#595959] text-[16px] leading-[26px] text-center">©2014 Imran Khan All Rights Reserved</p>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+      $(function() {
+        $('.slider').slick({
+          arrows: false,
+          infinite: true,
+          autoplay: true,
+          speed: 2000,
+          fade: true,
+        });
+
+        $('#open-mobile-menu').on('click', function () {
+          $('#mobile-menu').addClass('open');
+          $('#open-mobile-menu').hide();
+          $('#close-mobile-menu').show();
+        });
+
+        $('#close-mobile-menu').on('click', function () {
+          $('#mobile-menu').removeClass('open');
+          $('#open-mobile-menu').show();
+          $('#close-mobile-menu').hide();
+        });
+      });
+    </script>
+
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
